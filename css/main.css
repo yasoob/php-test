@@ -1,0 +1,50 @@
+/*.wrapper{
+	width: 470px;
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 13em;
+}*/
+
+html, body {
+    height: 100%;
+}
+.main {
+    height: 100%;
+    width: 100%;
+    display: table;
+}
+input{
+	width: 300px;
+}
+button{
+	width: 300px;
+    transition: all .5s;
+}
+button:hover {
+    background-color: #ECE8E8;
+    color: black;
+    font-weight: bold;
+}
+form{
+	margin: 0 auto;
+	width: 320px;
+	padding: 10px;
+	border: 1px dotted black;
+}
+.wrapper {
+    display: table-cell;
+    height: 100%;
+    vertical-align: middle;
+    text-align: center;
+}
+.disclaimer{
+	position: absolute;
+	top: 0;
+	right: 0;
+	padding: 20px;
+	border-left: 1px solid black;
+	border-bottom: 1px solid black;
+}
+.disclaimer p{
+	margin-bottom: 0px;
+}
